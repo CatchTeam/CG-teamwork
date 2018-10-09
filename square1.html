@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script id="vertex-shader" type="x-shader/x-vertex">
+attribute vec4 vPosition;
+uniform float ux,uy;
+
+
+void main()
+{
+gl_PointSize = 1.0;
+gl_Position = vPosition;
+gl_Position.x = vPosition.x+ux;
+gl_Position.y = vPosition.y+uy;
+}
+</script>
+<script id="fragment-shader" type="x-shader/x-fragment">
+precision mediump float;
+uniform vec4 uColor;
+
+void main()
+{
+gl_FragColor = uColor;
+
+}
+</script>
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+<script type="text/javascript" src="square1.js"></script>
+</head>
+<body>
+
+
+
+<select id="Controls" size="4">
+    <option value="0">Forward</option>
+    <option value="1">Backford</option>
+    <option value="2">Jump</option>
+    <option value="3">Reset</option>
+
+</select>
+
+
+<canvas id="gl-canvas" width="512" height="512">
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+</body>
+</html>
