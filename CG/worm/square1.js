@@ -29,17 +29,17 @@ if ( !gl ) { alert( "WebGL isn't available" );
 var vertices = [];
 //head
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = -0.4+0.5*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
     y = 0.5*mCos;
     vertices.push(x);
     vertices.push(y);
-}  
+}
 //LEye
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = -0.4-0.27+0.20*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -49,7 +49,7 @@ for(var a=0; a<500; ++a)
 }
 //
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = -0.4-0.27+0.10*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -60,7 +60,7 @@ for(var a=0; a<500; ++a)
 
 //REye
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = -0.4+0.16+0.20*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -70,7 +70,7 @@ for(var a=0; a<500; ++a)
 }
 
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x =-0.4+ 0.09+0.10*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -80,7 +80,7 @@ for(var a=0; a<500; ++a)
 }
 //Body
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x = -0.4+0.13+0.30*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -89,7 +89,7 @@ for(var a=0; a<500; ++a)
     vertices.push(y);
 }
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x = -0.4+0.33+0.25*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -98,7 +98,7 @@ for(var a=0; a<500; ++a)
     vertices.push(y);
 }
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.4+ 0.57+0.25*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -108,7 +108,7 @@ for(var a=0; a<500; ++a)
 }
 
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.4+ 0.79+0.25*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -118,7 +118,7 @@ for(var a=0; a<500; ++a)
 }
 //Nose
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.6+0.10*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -128,7 +128,7 @@ for(var a=0; a<500; ++a)
 }
 //Mouth
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.6+0.03*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -138,7 +138,7 @@ for(var a=0; a<500; ++a)
 }
 //Body
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.4+ 0.99+0.25*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -148,7 +148,7 @@ for(var a=0; a<500; ++a)
 }
 //Eye
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = -0.4-0.19+0.05*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -157,7 +157,7 @@ for(var a=0; a<500; ++a)
     vertices.push(y);
 }
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = -0.4+0.03+0.05*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -178,7 +178,7 @@ mSin = Math.sin(15*2*Math.PI/500);
     var w=x;
     var z=y;
     for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = w-0.05+0.05*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -200,7 +200,7 @@ mSin = Math.sin(-15*2*Math.PI/500);
    w=x;
    z=y;
     for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
     x = w-0.05+0.05*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -209,7 +209,7 @@ mSin = Math.sin(-15*2*Math.PI/500);
     vertices.push(y);
 }
 
-//foot    
+//foot
     x = -0.4+0.33+0.25;
     y = -0.63-0.25;
     vertices.push(x);
@@ -219,7 +219,7 @@ mSin = Math.sin(-15*2*Math.PI/500);
     vertices.push(x);
     vertices.push(y);
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.4+ 0.57+0.25*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -229,7 +229,7 @@ for(var a=0; a<500; ++a)
 }
 
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.4+ 0.79+0.25*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -238,7 +238,7 @@ for(var a=0; a<500; ++a)
     vertices.push(y);
 }
 for(var a=0; a<500; ++a)
-{   
+{
     mSin = Math.sin(a*2*Math.PI/500);
         x =-0.4+ 0.99+0.25*mSin;
     mCos = Math.cos(a*2*Math.PI/500);
@@ -292,27 +292,60 @@ document.getElementById("Controls").onclick = function( event) {
     };
 
 
-window.onkeydown = function( event ) {
-        var key = String.fromCharCode(event.keyCode);
-        switch( key ) {
-          case '1':
-            direction = 1.0;
-            break;
+    window.addEventListener("keydown", function(){
+              switch( event.keyCode ) {
+              case 37:
+                direction = 1.0;
+                break;
 
-         case '2':
-            direction = 2.0;
-            break;
+             case 39:
+                direction = 2.0;
+                break;
 
-         case '3':
-            direction = 3.0;
-            break;
-     
-         case '4':
-            direction = 0.0;
-            break;
-        }
-    };
+             case 38:
+                direction = 3.0;
+                break;
 
+             case 40:
+                direction = 0.0;
+                break;
+            }
+        }) ;
+
+
+
+var mouseDown = false;
+var lastMouseX = null;
+var lastMouseY = null;
+
+document.onmousedown = function (event) {
+    mouseDown = true;
+    lastMouseX = event.clientX;
+    lastMouseY = event.clientY;
+    direction = 4.0;
+};
+document.onmouseup  = function() {
+    mouseDown = false;
+};
+document.onmouseout  = function () {
+    mouseDown = false;
+};
+document.onmousemove = function(event) {
+      if(!mouseDown){
+          return;
+      }
+      var newX = event.clientX;
+      var newY = event.clientY;
+      var distanceX = newX - lastMouseX;
+      var distanceY = newY - lastMouseY;
+      ux+=distanceX/128;
+      uy-=distanceY/128;
+      gl.uniform1f(uxLoc, ux);
+      gl.uniform1f(uyLoc, uy);
+      lastMouseX = newX;
+      lastMouseY = newY;
+
+  };
 
 
 render();
@@ -329,39 +362,46 @@ switch(direction) {
           case 0.0:
              ux = 0.0;
              uy = 0.0;
-             gl.uniform1f(uxLoc, ux);  
-             gl.uniform1f(uyLoc, uy);             
-             
-            
+             gl.uniform1f(uxLoc, ux);
+             gl.uniform1f(uyLoc, uy);
+             speed=0.1;
+
             break;
 
           case 1.0:
              if(ux>-1.0){
                 ux-=0.01;
-                gl.uniform1f(uxLoc, ux);             
+                gl.uniform1f(uxLoc, ux);
              }
-            
+
             break;
 
          case 2.0:
              if(ux<1.0){
                 ux+=0.01;
-                gl.uniform1f(uxLoc, ux);             
+                gl.uniform1f(uxLoc, ux);
              }
-            
+
             break;
 
-         case 3.0:  
+         case 3.0:
             if (speed<=-0.095)
               speed = 0.1;
-                                                      
-            speed -=0.005;  
+
+            speed -=0.005;
             uy += speed;
-                                                     
-            gl.uniform1f(uyLoc, uy);           
+
+            gl.uniform1f(uyLoc, uy);
             break;
 
-        
+        case 4.0:
+
+                gl.uniform1f(uxLoc, ux);
+
+                gl.uniform1f(uyLoc, uy);
+            break;
+
+
        }
 
 uColor = [0.0,0.0,0.0,1.0];
@@ -439,8 +479,8 @@ gl.drawArrays(gl.LINE_LOOP,7000,2);
 gl.drawArrays(gl.LINE_LOOP,7002,500);
 gl.drawArrays(gl.LINE_LOOP,7502,2);
 gl.drawArrays(gl.LINE_LOOP,7504,500);
-       
-        requestAnimationFrame( render );      
-   
+
+        requestAnimationFrame( render );
+
 
 }
